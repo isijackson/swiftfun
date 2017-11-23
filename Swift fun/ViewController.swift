@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLable: UILabel!
     @IBAction func buttonTapped(_ sender: Any) {
         buttonCount = buttonCount + 1
+        //printing information
         print (buttonCount)
+    
         if buttonCount >= 10 {
             view.backgroundColor = UIColor.red
             myLable.text = "Jackson Isiko"
